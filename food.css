@@ -1,0 +1,517 @@
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url('images/bg.png');
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+section.header {
+	height: 50px;
+	background-color: #000000;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+}
+div.container-left, div.container-right {
+	display: flex;
+	align-self: center;
+	margin-left: 40px;
+
+}
+
+.container-left i, p, .container-right i, p {
+	margin-left: 8px;
+
+}
+
+div.container-right-corner {
+	align-self: center;
+	margin-left: auto;
+	margin-right: 40px;
+}
+
+div.container-right-corner a {
+	color: white;
+	background-color: #E4000D;
+	text-align: center;
+	border-radius: 50%;
+	padding: 10px;
+}
+div.container-right-corner a:hover {
+	background-color: #9F0009;
+}
+section.logo {
+	background-color: #CD000C;
+	background-image: url('images/bg-header.png');
+	display: flex;
+	justify-content: center;
+	height: 150px;
+}
+section.header-con {
+	background-color:#000; 
+	color:#fff;
+	position: relative;
+	padding: 12px;
+	text-align: center;
+
+}
+section.header-con h2 {
+	margin: 0px;
+	padding: 0px;
+}
+section.header-con:after {
+	content:'';
+	background-image: url('images/bg-1.png');
+	background-repeat: repeat-x;
+	height:12px;
+	width:100%;
+	left:0;
+	bottom:-12px;
+	position:absolute;
+	z-index: 1;
+}
+section.menu ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+section.menu ul li {
+	flex-grow:1;
+	transition: all .3s;
+	width: 12.5%;
+}
+
+section.menu ul li a.aaa {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 80px 20px 20px 20px;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	transition: all .3s;
+}
+
+section.menu ul li a.aaa:after {
+	content: '';
+	height: 0px;
+	width: 0px;
+	border-bottom: 30px solid transparent;
+	position: absolute;
+	top: 100%;
+	right: 0px;
+	transition: all 0.3s;
+}
+section.menu ul li a.aaa:before {
+	content: '';
+	height: 0px;
+	width: 0px;
+	border-bottom: 30px solid transparent;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	transition: all 0.3s;
+}
+
+section.menu ul li.one {
+	background-color: #b72112;
+}
+section.menu ul li a.link-1 {
+	background-color: #b72112;
+}
+section.menu ul li a.link-1:after {
+	border-right: 97px solid #b72112;
+}
+section.menu ul li a.link-1:before {
+	border-left: 97px solid #b72112;
+}
+section.menu ul li.one:hover a.link-1 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.one:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-1:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-1:hover:before {
+	border-left: 97px solid #5d0507;
+}
+
+
+section.menu ul li.two, section.menu ul li a.link-2 {
+	background-color: #9c1d10;
+}
+section.menu ul li a.link-2:after {
+	border-right: 97px solid #9c1d10;
+}
+section.menu ul li a.link-2:before {
+	border-left: 97px solid #9c1d10;
+}
+
+section.menu ul li.two:hover a.link-2 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.two:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-2:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-2:hover:before {
+	border-left: 97px solid #5d0507;
+}
+
+
+section.menu ul li.three, section.menu ul li a.link-3 {
+	background-color: #b72112;
+}
+section.menu ul li a.link-3:after {
+	border-right: 97px solid #b72112;
+}
+section.menu ul li a.link-3:before {
+	border-left: 97px solid #b72112;
+}
+
+section.menu ul li.three:hover a.link-3 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.three:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-3:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-3:hover:before {
+	border-left: 97px solid #5d0507;
+}
+
+section.menu ul li.four, section.menu ul li a.link-4 {
+	background-color: #9c1d10;
+}
+section.menu ul li a.link-4:after {
+	border-right: 97px solid #9c1d10;
+}
+section.menu ul li a.link-4:before {
+	border-left: 97px solid #9c1d10;
+}
+
+section.menu ul li.four:hover a.link-4 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.four:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-4:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-4:hover:before {
+	border-left: 97px solid #5d0507;
+}
+
+
+section.menu ul li.five, section.menu ul li a.link-5 {
+	background-color: #b72112;
+}
+section.menu ul li a.link-5:after {
+	border-right: 97px solid #b72112;
+}
+section.menu ul li a.link-5:before {
+	border-left: 97px solid #b72112;
+}
+
+section.menu ul li.five:hover a.link-5 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.five:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-5:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-5:hover:before {
+	border-left: 97px solid #5d0507;
+}
+
+section.menu ul li.six, section.menu ul li a.link-6 {
+	background-color: #9c1d10;
+}
+section.menu ul li a.link-6:after {
+	border-right: 97px solid #9c1d10;
+}
+section.menu ul li a.link-6:before {
+	border-left: 97px solid #9c1d10;
+}
+
+section.menu ul li.six:hover a.link-6 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.six:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-6:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-6:hover:before {
+	border-left: 97px solid #5d0507;
+}
+section.menu ul li.seven, section.menu ul li a.link-7 {
+	background-color: #b72112;
+}
+section.menu ul li a.link-7:after {
+	border-right: 97px solid #b72112;
+}
+section.menu ul li a.link-7:before {
+	border-left: 97px solid #b72112;
+}
+
+section.menu ul li.seven:hover a.link-7 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.seven:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-7:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-7:hover:before {
+	border-left: 97px solid #5d0507;
+}
+section.menu ul li.eight, section.menu ul li a.link-8 {
+	background-color: #9c1d10;
+}
+section.menu ul li a.link-8:after {
+	border-right: 97px solid #9c1d10;
+}
+section.menu ul li a.link-8:before {
+	border-left: 97px solid #9c1d10;
+}
+
+section.menu ul li.eight:hover a.link-8 {
+	transform: translateY(20px); 
+	background-color: #5d0507;
+}
+section.menu ul li.eight:hover {
+ 	background-color: #5d0507;
+}
+section.menu ul li a.link-8:hover:after {
+	border-right: 97px solid #5d0507;
+}
+section.menu ul li a.link-8:hover:before {
+	border-left: 97px solid #5d0507;
+}
+section.middle {
+	position: relative;
+	z-index: -1;
+	height: 550px;
+}
+div.middle-con {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 550px;
+	height: 150px;
+	color: white;
+	background-color: rgba(0, 0, 0, .6);
+}
+div.wellcome {
+	position: relative;
+	z-index: -1;
+	height: 500px;
+	background-color: white;
+}
+div.wellcome img {
+	height: 100%;
+	width: 100%;
+}
+
+div.wel-con {
+	height: 170px;
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 10px;
+}
+div.wel-con p, h1 {
+	margin-left: 20px;
+}
+
+
+.new {
+	text-align: center;
+	background-color: #fff;
+	background-color: white;
+	box-shadow: 0px 1px 10px;
+	position: relative;
+
+
+}
+.new h1 {
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.new p {
+	margin-bottom: 0px;
+}
+div.wl {
+	text-align: center;
+	background-color: #fff;
+}
+div.wl h2 {
+	margin: 0px 0px 10px 0px;
+	padding: 100px 0px 0px 0px;
+	font-size: 46px;
+	
+}
+div.wl hr {
+	width: 7%;
+	border-bottom: 5px solid black;
+	margin-bottom: 10px;
+}
+div.wl p {
+	margin: 0px;
+	padding-bottom: 50px;
+}
+.mid {
+	width: 88%;
+	margin: auto;
+}
+.member {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	padding-bottom: 100px;
+	position: relative;
+}
+.mem-pic {
+	height: 200px;
+	width: 250px;
+	margin:  40px 40px 150px 40px;
+	flex-grow: 1;
+	position: relative;
+}
+.mem-pic img {
+	height:100%;
+	width: 100%;
+	border: 7px solid #CCCCCC;
+}
+.fl {
+	position: absolute;
+	top: 15px;
+	left: -23px;
+	background-color: #C9000B;
+	color: #fff;
+	font-size: 20px;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	padding-top: 5px;
+}
+.fl:before {
+	content: '';
+	height: 0px;	
+	width: 0px;
+	border-top: 9px solid #470000;
+	border-left: 24px solid transparent;
+	border-right: 0px solid #470000;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+}
+.it {
+	position: absolute;
+	top: 25px;
+	left: 134px;
+	background-color: #fff;
+
+}
+.it:after {
+	content: '';
+	height: 0px;	
+	width: 0px;
+	border-top: 22px solid #C9000B;
+	border-right: 16px solid transparent;
+	position: absolute;
+	top: -10px;
+	left: -38px;
+	right: 0px;
+}
+.it:before {
+	content: '';
+	height: 0px;	
+	width: 0px;
+	border-top: 22px solid transparent;
+	border-left: 16px solid #C9000B;
+	position: absolute;
+	top: 3px;
+	left: -38px;
+}
+
+.mem-pic p {
+	margin-left: 0px;
+}
+.mem-pic button {
+	height: 35px;
+	width: 100px;
+	background-color: #6B1A1A;
+	color: white;
+	border-radius: 3px;
+}
+.fotter span {
+	position: relative;
+}
+.member:after {
+	content:'';
+	background-image: url('images/bg-3.png');
+	background-repeat: repeat-x;
+	position: absolute;
+	height:15px;
+	width: 100%;
+	bottom: -15px;
+}
+
+.fotter {
+	background-color: #F2F1E8;
+	display: flex;
+
+}
+.co-1 {
+	width: 33.33%;
+}
+
+.co-1 img {
+	float: left;
+	margin: 0px 20px;
+	border: 5px solid #FFFFFF;
+}
+
+.co-1 h3 {
+	margin: 0px 20px;
+	padding: 40px 0px;
+}
+.co-1 h4, p {
+	margin: 0px;
+}
+.co-1 p {
+	margin: 10px 20px;
+}
+
+
+
+
+
